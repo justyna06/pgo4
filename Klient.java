@@ -32,6 +32,10 @@ public class Klient {
         }
     }
 
+    public void usunWydarzenie(Wydarzenie wydarzenie) {
+        listaRezerwacji.remove(wydarzenie);
+    }
+
 
 
     public String getImie() {
